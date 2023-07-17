@@ -1,0 +1,40 @@
+body {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.poem {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+#botao-secreto {
+  background-color: #ff00b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: 200px;
+  width: 500px;
+}
+
+#botao-secreto:hover {
+  background-color: #ff0080;
+}

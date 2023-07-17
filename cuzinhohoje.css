@@ -1,0 +1,47 @@
+body {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.option-yes, .option-no {
+    background-color: #ff00b3;
+    color: white;
+    border: none;
+    margin-left: 50px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-right: 50px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option-yes:hover, .option-no:hover {
+    background-color: #ff0080;
+}
+
+.hint {
+    font-size: 18px;
+    margin-top: 50px;
+}
